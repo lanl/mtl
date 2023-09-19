@@ -14,7 +14,7 @@ The code is implemented with [PyTorch](https://pytorch.org/) and [PyTorch Lightn
 ```
 pip install torch torchvision torchaudio torchmetrics tensorboard lightning
 ```
-Other packages may be needed depending your Python distribution. 
+Other packages may be needed depending on your Python distribution and installed packages. 
 
 # Use
 ```
