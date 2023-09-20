@@ -5,6 +5,8 @@ The machine learning model infers and refines a denoised, higher-resolution imag
 
 The work was supported by an FY23 Rapid Response project (GRR3KGAO) of Center for Space and Earth Science (CSES), Los Alamos National Laboratory (LANL). LANL is operated by Triad National Security, LLC, for the National Nuclear Security Administration (NNSA) of the U.S. Department of Energy (DOE) under Contract No. 89233218CNA000001. The research used high-performance computing resources provided by LANL's Institutional Computing program. 
 
+LANL open source approval reference O4656. &copy; 2023. Triad National Security, LLC. All rights reserved. 
+
 # Reference
 LA-UR-23-20649: Gao, 2023, Iterative multi-task learning and inference from seismic images. 
 
@@ -24,14 +26,20 @@ cd test; ruby test2.rb; ruby test3.rb
 
 For large 3D images, GPU may run out of memory. In such a case, you can use CPU by setting ```--gpus_per_node=0``` for inference/refinement, or decompose the input image into blocks and merge results. 
 
-Only example training/validation/test data are provided due to the size limit. Full training/validation data and trained models may be released in the future under separate approval. 
+Only example training/validation/test data are provided due to the size limit. Full training/validation data and trained models may be released in the future.
 
 # License
-LANL open source approval reference O4656.
+This program is Open-Source under the BSD-3 License.
 
-&copy; 2023. Triad National Security, LLC. All rights reserved. 
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-This program was produced under U.S. Government contract 89233218CNA000001 for Los Alamos National Laboratory (LANL), which is operated by Triad National Security, LLC for the U.S. Department of Energy/National Nuclear Security Administration. All rights in the program are reserved by Triad National Security, LLC, and the U.S. Department of Energy/National Nuclear Security Administration. The Government is granted for itself and others acting on its behalf a nonexclusive, paid-up, irrevocable worldwide license in this material to reproduce, prepare derivative works, distribute copies to the public, perform publicly and display publicly, and to permit others to do so.
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   
 # Author
 Kai Gao, <kaigao@lanl.gov>
