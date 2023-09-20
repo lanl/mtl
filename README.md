@@ -5,7 +5,7 @@ The machine learning model infers and refines a denoised, higher-resolution imag
 
 The work was supported by an FY23 Rapid Response project (GRR3KGAO) of Center for Space and Earth Science (CSES), Los Alamos National Laboratory (LANL). LANL is operated by Triad National Security, LLC, for the National Nuclear Security Administration (NNSA) of the U.S. Department of Energy (DOE) under Contract No. 89233218CNA000001. The research used high-performance computing resources provided by LANL's Institutional Computing program. 
 
-LANL open source approval reference O4656. &copy; 2023. Triad National Security, LLC. All rights reserved. 
+LANL open source approval reference O4656.
 
 # Reference
 LA-UR-23-20649: Gao, 2023, Iterative multi-task learning and inference from seismic images. 
@@ -30,6 +30,8 @@ Only example training/validation/test data are provided due to the size limit. F
 
 # License
 This program is Open-Source under the BSD-3 License.
+
+&copy; 2023. Triad National Security, LLC. All rights reserved. 
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
