@@ -8,7 +8,7 @@ The work was supported by an FY23 Rapid Response project (GRR3KGAO) of Center fo
 LANL open source approval reference O4656.
 
 # Reference
-LA-UR-23-20649: Gao, 2023, Iterative multi-task learning and inference from seismic images. 
+LA-UR-23-20649: Gao, 2023, Iterative multi-task learning and inference from seismic images, [Geophysical Journal International](https://doi.org/10.1093/gji/ggad424)
 
 # Requirement
 The code is implemented with [PyTorch](https://pytorch.org/) and [PyTorch Lightning](https://lightning.ai/). To train/valid/test the model, please
