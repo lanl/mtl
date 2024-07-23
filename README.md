@@ -26,7 +26,7 @@ cd test; ruby test2.rb; ruby test3.rb
 
 For large 3D images, GPU may run out of memory. In such a case, you can use CPU by setting ```--gpus_per_node=0``` for inference/refinement, or decompose the input image into blocks and merge results.
 
-Only example training/validation/test data are provided in this repository due to the size limit. The training and validation datasets can be generated using [example_mtl_2d](https://github.com/lanl/rgm/example/example_mtl_2d.f90) and [example_mtl_3d](https://github.com/lanl/rgm/example/example_mtl_3d.f90) open-source available at [RGM](https://github.com/lanl/rgm).
+Only example training/validation/test data are provided in this repository due to the size limit. The training and validation datasets can be generated using [example_mtl_2d](https://github.com/lanl/rgm/blob/main/example/example_mtl_2d.f90) and [example_mtl_3d](https://github.com/lanl/rgm/blob/main/example/example_mtl_3d.f90) open-source available at [RGM](https://github.com/lanl/rgm).
 
 # License
 &copy; 2023. Triad National Security, LLC. All rights reserved.
